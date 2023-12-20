@@ -31,6 +31,7 @@ plugins:
   - search:
       lang: en
   - markdown-exec
+  - material-plausible
   - macros:
       module_name: scripts/macro
 markdown_extensions:
@@ -50,6 +51,10 @@ markdown_extensions:
   - footnotes
 extra_css:
   - stylesheets/extra.css
+extra:
+  analytics:
+    provider: plausible
+    domain: docs.pola.rs
 repo_url: https://github.com/pola-rs/polars
 repo_name: pola-rs/polars
 watch:
