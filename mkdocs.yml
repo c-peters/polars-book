@@ -54,7 +54,7 @@ extra_css:
 extra:
   analytics:
     provider: plausible
-    domain: docs.pola.rs
+    domain: docs.pola.rs,combined.pola.rs
 repo_url: https://github.com/pola-rs/polars
 repo_name: pola-rs/polars
 watch:
